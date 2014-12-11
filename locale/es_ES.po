@@ -1,0 +1,63 @@
+# 
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:account.payment.gateway,redsys_currency:"
+msgid "Currency"
+msgstr "Moneda"
+
+msgctxt "field:account.payment.gateway,redsys_merchant_code:"
+msgid "Merchant Code"
+msgstr "Código del comercio"
+
+msgctxt "field:account.payment.gateway,redsys_merchant_name:"
+msgid "Merchant Name"
+msgstr "Nombre del comercio"
+
+msgctxt "field:account.payment.gateway,redsys_secret_key:"
+msgid "Secret Key"
+msgstr "Clave secreta"
+
+msgctxt "field:account.payment.gateway,redsys_sequence:"
+msgid "Sequence"
+msgstr "Secuencia"
+
+msgctxt "field:account.payment.gateway,redsys_terminal:"
+msgid "Terminal"
+msgstr "Terminal"
+
+msgctxt "field:account.payment.gateway,redsys_transaction_type:"
+msgid "Transaction Type"
+msgstr "Tipo transacción"
+
+msgctxt "help:account.payment.gateway,redsys_currency:"
+msgid "Redsys Currency"
+msgstr "Redsys moneda"
+
+msgctxt "help:account.payment.gateway,redsys_merchant_code:"
+msgid "Redsys Merchant Code"
+msgstr "Redsys código del comercio"
+
+msgctxt "help:account.payment.gateway,redsys_merchant_name:"
+msgid "Redsys Merchant Name"
+msgstr "Redsys nombre del comercio"
+
+msgctxt "help:account.payment.gateway,redsys_secret_key:"
+msgid "Redsys Secret Key"
+msgstr "Redsys clave secreta"
+
+msgctxt "help:account.payment.gateway,redsys_sequence:"
+msgid "Redsys Sequence. Min. 4N. Max. 12 AN"
+msgstr "Redsys secuencia. Min. 4N. Max. 12 AN"
+
+msgctxt "help:account.payment.gateway,redsys_terminal:"
+msgid "Redsys Terminal"
+msgstr "Redsys terminal"
+
+msgctxt "help:account.payment.gateway,redsys_transaction_type:"
+msgid "Redsys Transaction Type"
+msgstr "Redsys tipo de transacción"
+
+msgctxt "model:ir.sequence,name:sequence_payment_gateway_redsys"
+msgid "Redsys"
+msgstr "Redsys"

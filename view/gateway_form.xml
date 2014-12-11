@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!-- This file is part account_payment_gateway_redsys of Tryton. The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+<data>
+    <xpath expr="/form/notebook/page[@id='configuration']" position="inside">
+        <label name="redsys_merchant_name"/>
+        <field name="redsys_merchant_name"/>
+        <label name="redsys_merchant_code"/>
+        <field name="redsys_merchant_code"/>
+        <label name="redsys_secret_key"/>
+        <field name="redsys_secret_key"/>
+        <label name="redsys_terminal"/>
+        <field name="redsys_terminal"/>
+        <label name="redsys_currency"/>
+        <field name="redsys_currency"/>
+        <label name="redsys_transaction_type"/>
+        <field name="redsys_transaction_type"/>
+        <label name="redsys_sequence"/>
+        <field name="redsys_sequence"/>
+    </xpath>
+</data>
