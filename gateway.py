@@ -8,8 +8,7 @@ from trytond.pyson import Eval, Equal
 __all__ = ['AccountPaymentGateway']
 
 
-class AccountPaymentGateway:
-    __metaclass__ = PoolMeta
+class AccountPaymentGateway(metaclass=PoolMeta):
     __name__ = 'account.payment.gateway'
     redsys_merchant_name = fields.Char('Merchant Name',
         states={
