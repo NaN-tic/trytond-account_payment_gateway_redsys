@@ -7,6 +7,7 @@ this repository contains the full copyright notices and license terms. -->
         <record model="ir.sequence" id="sequence_payment_gateway_redsys">
             <field name="name">Redsys</field>
             <field name="code">payment.gateway</field>
+            <field name="padding">10</field>
         </record>
 
         <!-- account.payment.gateway -->
