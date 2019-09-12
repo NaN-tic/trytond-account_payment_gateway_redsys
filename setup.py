@@ -13,6 +13,7 @@ MODULE = 'account_payment_gateway_redsys'
 PREFIX = 'trytonzz'
 MODULE2PREFIX = {
     'account_payment_gateway': 'trytonzz',
+    'account_payment_type': 'trytonspain',
     }
 
 
@@ -59,6 +60,12 @@ dependency_links = [
     ('hg+https://bitbucket.org/zikzakmedia/'
         'trytond-account_payment_gateway@%(branch)s'
         '#egg=trytonzz-account_payment_gateway-%(series)s' % {
+            'branch': branch,
+            'series': series,
+            }),
+    ('hg+https://bitbucket.org/trytonspain/'
+        'trytond-account_payment_type@%(branch)s'
+        '#egg=trytonspain-account_payment_type-%(series)s' % {
             'branch': branch,
             'series': series,
             }),
