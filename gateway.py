@@ -54,3 +54,6 @@ class AccountPaymentGateway(metaclass=PoolMeta):
         res = super(AccountPaymentGateway, cls).get_methods()
         res.append(('redsys', 'Redsys'))
         return res
+
+    def import_transactions_redsys(self):
+        pass
